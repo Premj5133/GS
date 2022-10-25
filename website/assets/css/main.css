@@ -43,7 +43,7 @@ nav {
   border-radius:0px 40px 0px 0px;
   border-top:5px solid red;
   border-right:5px solid red;
-  background-image: url('/assets/img/background-design_ImgID1.png');
+  background-image: url('assets/img/background-design_ImgID1.png');
   background-size: contain;
 }
 .box-2 {
@@ -56,7 +56,7 @@ nav {
   border-radius:40px 0px 0px 0px;
   border-top:5px solid red;
   border-left:5px solid red;
-  background-image: url('/assets/img/background-design_ImgID1.png');
+  background-image: url('assets/img/background-design_ImgID1.png');
   background-size: contain;
 }
 .box-3 {
@@ -66,7 +66,7 @@ nav {
   border-radius:0px 0px 40px 0px;
   border-bottom:5px solid red;
   border-right:5px solid red;
-  background-image: url('/assets/img/background-design_ImgID12.png');
+  background-image: url('assets/img/background-design_ImgID12.png');
   background-size: contain;
 }
 .box-4 {
@@ -79,7 +79,7 @@ nav {
   border-radius:0px 0px 0px 40px;
   border-bottom:5px solid red;
   border-left:5px solid red;
-  background-image: url('/assets/img/background-design_ImgID12.png');
+  background-image: url('assets/img/background-design_ImgID12.png');
   background-size: contain;
 }
 :root {
