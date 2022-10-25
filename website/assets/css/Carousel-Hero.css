@@ -20,6 +20,8 @@ div.jumbotron.hero-photography {
   background-image: url('../../assets/img/hero-background-photography.jpg');
 }
 div.jumbotron.hero-technology {
-  background-image: url('../../assets/img/hero-background-nature.jpg');
+  background-image: url('../../assets/img/nav-banner-box.png');
+  width: 100% !important;
+  height: 100% !important;
 }
 
