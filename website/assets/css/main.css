@@ -140,7 +140,7 @@ section {
 }
 
 .section-bg {
-  background-image: url(assets/img/sweets-banner.jpg)!important;
+  background-image: url('assets/img/sweets-banner.jpg')!important;
 }
 
 .section-header {

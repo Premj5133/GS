@@ -6,10 +6,12 @@ div.jumbotron.carousel-hero {
   padding-top: 15rem !important;
   margin-bottom: 0 !important;
 }
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   div.jumbotron.hero-nature {
     background-image: url('../../assets/img/Yellow Purple Bright Diwali Sale Banner.png') !important;
+  }
+  div.jumbotron.hero-technology {
+    background-image: url('../../assets/img/mob-nav-banner.png') !important;
   }
 }
 div.jumbotron.hero-nature {
@@ -20,16 +22,5 @@ div.jumbotron.hero-photography {
   background-image: url('../../assets/img/hero-background-photography.jpg');
 }
 div.jumbotron.hero-technology {
-  background-image: url(/assets/img/nav-banner-box.png);
-}
-
-@media only screen and (max-width: 600px){
-div.jumbotron.hero-technology 
-{
-  background-image: url('../../assets/img/nav-banner-box.svg');
-  background-size: contain !important;
-  background-image: url(/assets/img/mob-nav-banner.png);
-  background-repeat: no-repeat;
-  background-position: center ;
-}
+  background-image: url('../../assets/img/nav-banner-box.png');
 }
