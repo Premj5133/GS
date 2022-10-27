@@ -19,6 +19,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
    
+<!--rajasthani font-->
+<link href="//db.onlinewebfonts.com/c/6bff5f8f85a7385fbdc21a8f724dd8ac?family=Rajasthan" rel="stylesheet" type="text/css"/>
+
+
   <!--alkalamifont gogle link-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -88,9 +92,11 @@
         <span class="navbar-toggler-icon"></span>
       </button>
         <div class="collapse navbar-collapse" id="navbar-content">
+        
+
           <ul class="navbar-nav">
             <li class="navbar-nav">
-            <img src="assets/img/Group of 2 Objects.svg">
+            <img  src="assets/img/Group of 2 Objects.svg">
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#carousel-1">Home</a>
@@ -184,12 +190,12 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>About Us</h2>
-          <p>Learn More <span>About Us</span></p>
+          <h2 style="font-family:Rajasthan !important;" >About Us</h2>
+          <p style="font-family:Rajasthan !important;" >Learn More <span>About Us</span></p>
         </div>
 
         <div class="row gy-4">
-          <div class="col-lg-7 position-relative about-img" style="background-image: url(assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-lg-7 position-relative about-img"  style=" background-repeat: no-repeat;  background-image: url(assets/img/about.jpg)  ;"  data-aos="fade-up" data-aos-delay="150">
           </div>
           <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
             <div class="content ps-0 ps-lg-5">
@@ -206,15 +212,33 @@
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                 velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
               </p>
-
               <div class="position-relative mt-4">
-                <img src="assets/img/about-2.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWs" class="glightbox play-b"></a>
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel-2">
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="bg-light border rounded border-light c_img1 carousel-hero jumbotron py-5 px-4">
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="bg-light border rounded border-light c_img2 carousel-hero jumbotron py-5 px-4">
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="bg-light border rounded border-light c_img3 carousel-hero jumbotron py-5 px-4">
+                          </div>
+                      </div>
+                  </div>
+                  <div><a class="carousel-control-prev" href="#carousel-2" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-2" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+                  <ol class="carousel-indicators">
+                      <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                  </ol>
+              </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </section><!-- End About Section -->
 
@@ -225,8 +249,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Menu</h2>
-          <p>Check Our <span>Sweets Menu</span></p>
+          <h2 style="font-family:Rajasthan!important;" >Our Menu</h2>
+          <p style="font-family:Rajasthan!important;" >Check Our <span>Sweets Menu</span></p>
         </div>
 
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -266,10 +290,9 @@
             </div>
 
             <div class="row gy-5">
-
               <div class="col-lg-4 menu-item">
                 <a href="assets/menu img/ghewar.jpg" class="glightbox"><img src="assets/menu img/ghewar.jpg" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <h4>Ghewar</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -302,7 +325,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/menu img/dry_Frt_besanlado-removebg-preview.png" class="glightbox"><img src="assets/menu img/dry_Frt_besanlado-removebg-preview.png"" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Besan ladoo</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -313,7 +336,7 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="assets/menu img/dry_jamoon-removebg-preview.png" class="glightbox"><img src="assets/menu img/dry_jamoon-removebg-preview.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Dry Jamoon</h4>
                 <p class="ingredients">
                   Lorem, deren, trataro, filede, nerada
                 </p>
@@ -590,16 +613,16 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>REACH US</h2>
-          <p>These are The <span>areas we serve</span></p>
+          <h2 style="font-family:Rajasthan!important;"  >REACH US</h2>
+          <p style="font-family:Rajasthan !important;"  >These are The <span>areas we serve</span></p>
         </div>
         <div class="row">
           <div class="col-xl-6">
-          <p class="vjn">Vijayanagar</p>
+          <p style="font-family:Rajasthan!important;" class="vjn">Vijayanagar</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.1244578534083!2d77.53583741482188!3d12.96388699086093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3e755b9c5f6b%3A0x6697e4a907a01ee8!2sGajanand%20Sweets!5e0!3m2!1sen!2sin!4v1665816072839!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
           <div class="col-xl-6">
-          <p class="vjn">RR Nagar</p>
+          <p class="vjn" style="font-family:Rajasthan!important;" >RR Nagar</p>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.770943824132!2d77.51703741482147!3d12.922438290888145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f4efd8ccf9b%3A0xe43c1ac88bdcff1a!2sGajanand%20Sweets!5e0!3m2!1sen!2sin!4v1665816741318!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
@@ -671,15 +694,18 @@
           <div class="text-center"><button type="submit">Send Message</button></div>
         </form>
         <!-End Contact Form -->
-
+      
+        <p></p>
 
   <!-- ======= Footer ======= -->
+
   <footer id="footer" class="footer">
     <div class="container">
       <div class="row gy-3">
         <div class="col-lg-3 col-md-6 d-flex">
           <i class="bi bi-geo-alt icon"></i>
           <div>
+          
             <h4>Address</h4>
             <P>VIJAYANAGAR</P>
             <p>NO.101,4TH CROSS, 5TH B MAIN, RPC LAYOUT, VIJAYANAGAR, BANGLORE-104</p>

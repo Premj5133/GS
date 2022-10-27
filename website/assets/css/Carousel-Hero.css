@@ -24,3 +24,24 @@ div.jumbotron.hero-photography {
 div.jumbotron.hero-technology {
   background-image: url('../../assets/img/nav-banner-box.png');
 }
+
+/* second carousel */
+
+div.jumbotron.c_img1 {
+  background-image: url('../../assets/img/KK\ slider2.jpg');
+}
+div.jumbotron.c_img2 {
+  background-image: url('../../assets/img/festive-treat.jpg');
+
+  background-repeat: no-repeat;
+  background-position: center;
+  
+
+}
+div.jumbotron.c_img3 {
+  background-image: url('../../assets/img/nav-banner-box.png');
+  
+  
+
+}
+
