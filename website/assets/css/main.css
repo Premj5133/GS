@@ -1,11 +1,9 @@
-@font-face {font-family: "Rajasthan";
-  src: url("http://db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.eot"); /* IE9*/
-  src: url("http://db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("http://db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.woff2") format("woff2"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.woff") format("woff"), /* chrome firefox */
-  url("http://db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-  url("http://db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.svg#Rajasthan") format("svg"); /* iOS 4.1- */
+@font-face {
+  font-family: "Rajasthan";
+  src: url('assets/fonts/Rajasthan.woff');
 }
+@import url(//db.onlinewebfonts.com/c/6bff5f8f85a7385fbdc21a8f724dd8ac?family=Rajasthan);
+@font-face {font-family: "Rajasthan"; src: url("//db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.eot"); src: url("//db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.woff") format("woff"), url("//db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6bff5f8f85a7385fbdc21a8f724dd8ac.svg#Rajasthan") format("svg"); }
 body {
   margin:0;
   padding:0;
@@ -32,13 +30,6 @@ nav {
   background-color:#fefee4;
   position:relative;
 }
-
-
-@import url(//db.onlinewebfonts.com/c/6bff5f8f85a7385fbdc21a8f724dd8ac?family=Rajasthan);
-
-@import url(//db.onlinewebfonts.com/c/38af077fe73eea3e29ebfaa28f203e78?family=Samarkan);
-
-
 .box-1 {
   width:50%;
   background-color:#fefee4;
