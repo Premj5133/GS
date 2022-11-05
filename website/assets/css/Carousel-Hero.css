@@ -32,16 +32,9 @@ div.jumbotron.c_img1 {
 }
 div.jumbotron.c_img2 {
   background-image: url('../../assets/img/festive-treat.jpg');
-
-  background-repeat: no-repeat;
-  background-position: center;
-  
-
 }
 div.jumbotron.c_img3 {
-  background-image: url('../../assets/img/nav-banner-box.png');
-  
-  
-
+  background-image: url('../../assets/img/sankranthi.png');
+  object-fit: fill !important;
 }
 
